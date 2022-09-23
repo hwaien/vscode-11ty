@@ -1,3 +1,3 @@
-# See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.195.0/containers/javascript-node/.devcontainer/base.Dockerfile
-ARG VARIANT=16-bullseye
+# See here for image contents: https://github.com/devcontainers/images/tree/main/src/javascript-node
+ARG VARIANT=18-bullseye
 FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
